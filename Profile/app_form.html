@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>Application Form</title>
+		<style> 
+			
+	</style>
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	</head>
+
+	<body>
+		<nav id="menu">
+		<a href="../index.html" > About Us </a>
+			<a href="courses/courses.html" > Courses </a>
+			<a href="#">Application Form </a>
+			<a href="courses/contact/contact.html">Contact Us  </a>
+	</nav>
+	<h1 class="topbar">Application Form</h1>
+		
+		
+		
+     <img src="../images/app_form.jpg" alt="application" width="150px"> <br><br>
+    <form action="courses/courses.html" >
+     <fieldset>
+     	<legend>Personal Information</legend>
+     	<label> Your Name</label>
+     	<input type="text" size="20" placeholder="Full Name" minlength="5" maxlength="20"> <br>
+     	<label> Date Of Birth </label>
+     	<input type="date"><br>
+     	<label>Father's Name</label>
+     	<input type="text"><br>
+     	<label name="gender">Gender</label>
+     	<input type="radio" name="gender" autofocus>Male
+     	<input type="radio"name="gender">Female<br>
+     	<label> Place of Birth</label>
+     	<input list="Birth">
+     	<datalist id="Birth"> 
+     		<option>Dhaka</option>
+     		<option>Chattogram</option>
+     		<option>Khulna</option>
+     	</datalist> <br>
+     	<label> Religion</label>
+     	<select>
+     	<option>Islam</option>
+     	<option>Hindu</option>
+     	<option>Christian</option>
+     	<option>Budhhist</option>
+     </select> <br>
+     <label> Mobile Number </label>
+     <input type="text"> <br>
+     <label> E-mail</label>
+     <input type="email"><br>
+     <label>Upload Your Photo</label>
+     <input type="file"> 
+     
+     </fieldset> <br>
+
+     <fieldset>
+     	<legend>Education Deatils </legend>
+     	<table>
+			<tr>
+				<th>Education Level</th>
+				<th>School Name</th>
+				<th> Passing Year</th>
+				<th> Result </th>
+			</tr>
+			<tr>
+				<td>
+					<select>
+						<option selected> JSC</option>
+						<option> SSC </option>
+						<option> HSC </option>
+						<option> Honors </option>
+						<option> Masters </option>
+					</select>
+				</td>
+				<td>
+					<input type="text">
+				</td> 
+				<td>
+					<input type="text">
+				</td>
+				<td>
+					<input type="radio" name="res">Pass
+					<input type="radio" name="res">Fail
+				</td>
+				</tr>
+                <tr>
+				<td>
+					<select>
+						<option > JSC</option>
+						<option selected> SSC </option>
+						<option> HSC </option>
+						<option> Honors </option>
+						<option> Masters </option>
+					</select>
+				</td>
+				<td>
+					<input type="text">
+				</td> 
+				<td>
+					<input type="text">
+				</td>
+				<td>
+					<input type="radio" name="res">Pass
+					<input type="radio" name="res">Fail
+				</td>
+				</tr>
+				<tr>
+				<td>
+					<select>
+						<option > JSC</option>
+						<option > SSC </option>
+						<option selected> HSC </option>
+						<option> Honors </option>
+						<option> Masters </option>
+					</select>
+				</td>
+				<td>
+					<input type="text">
+				</td> 
+				<td>
+					<input type="text">
+				</td>
+				<td>
+					<input type="radio" name="res">Pass
+					<input type="radio" name="res">Fail
+				</td>
+				</tr>
+     	</table>
+     </fieldset>
+     <input type="submit" value="Submit">
+    
+     <input type="reset" value="Reset">
+ </form>
+	</body>	
+</html>
