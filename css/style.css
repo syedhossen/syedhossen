@@ -10,8 +10,9 @@ body{
 	color:#013B63;
 	margin:0px;
 	padding:10px;
-    border-radius:20px;
+        border-radius:20px;
 	font-size:50px;
+	text-shadow: 0 0 3px #ff0000;
 	
 }
 .topbar h1{
